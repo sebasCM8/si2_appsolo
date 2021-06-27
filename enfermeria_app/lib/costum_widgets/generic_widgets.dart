@@ -12,6 +12,13 @@ Widget mediumText(String theText, Color theColor) {
           color: theColor, fontSize: 32, fontWeight: FontWeight.w600));
 }
 
+Widget littleTitle(String theText, Color theColor) {
+  return Text(theText,
+      style: TextStyle(
+          color: theColor, fontSize: 21, fontWeight: FontWeight.w600));
+}
+
+
 Widget normalText(String theText, Color theColor) {
   return Text(theText,
       style: TextStyle(
