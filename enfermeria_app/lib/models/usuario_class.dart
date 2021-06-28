@@ -38,6 +38,7 @@ class Usuario {
   int getID() => this._usuId;
   bool isLogged() => (this._usuLogged == 1);
   int getPer() => this._usuPer;
+  int getPerId()=>this._usuPer;
 
   // ==========================
   // ===== API METHODS ========

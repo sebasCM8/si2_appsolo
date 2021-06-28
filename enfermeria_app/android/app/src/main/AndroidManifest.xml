@@ -3,6 +3,9 @@
    <application
         android:label="enfermeria_app"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+              android:name="com.google.android.geo.API_KEY"
+              android:value="AIzaSyBVs3UlUqaXiX7rwH2nBYXXxu3196dGbOY"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

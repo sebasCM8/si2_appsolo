@@ -6,6 +6,9 @@ class Servicio {
   String _serNombre;
   String _serDesc;
   double _serPrecio;
+
+  bool added = false;
+
   Servicio(this._serId, this._serNombre, this._serDesc, this._serPrecio);
 
   Map<String, dynamic> toMap() {
@@ -21,6 +24,7 @@ class Servicio {
   String getName() => this._serNombre;
   String getDesc() => this._serDesc;
   double getPrecio() => this._serPrecio;
+  int getId() => this._serId;
   // ==========================
   // ========= API METHODS ====
   // ==========================

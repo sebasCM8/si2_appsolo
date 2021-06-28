@@ -117,8 +117,11 @@ class _MenuPageState extends State<MenuPage> {
               onTap: _verServicioBtn,
             ),
             ListTile(
-              leading: Icon(Icons.phone_callback),
+              leading: Icon(Icons.phone_callback, color: Colors.green,),
               title: Text("Solicitar Atencion"),
+              onTap: (){
+                Navigator.pushNamed(context, 'solicitarAtencionFechaHora', arguments: user.getPerId());
+              },
             ),
             ListTile(
                 leading: Icon(Icons.logout, color: Colors.red),
